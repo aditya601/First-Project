@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>First Project</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css1.css" />
+    <style>
+        .row{
+            margin:10px;
+        }
+        .co-md-6 {
+            background: url(/Users/adityakuchekar/Downloads/2.jpeg);
+        }
+        #ft #sd #th{
+            background-color:aquamarine;
+            padding:30px;
+            margin:10px;
+        }
+    </style>
+</head>
+<body>
+    <a align="center"><h1>Image Gallery</h1></a>
+    <hr />
+    <br />
 
-You can use the [editor on GitHub](https://github.com/aditya601/First-Project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    <div class="container">
+        <h2 align="center">MY IMAGES</h2><br />
+        <div class="row">
+            <div class="col-md-4 col-sm-6" id="ft" >
+                <img src="/Users/adityakuchekar/Downloads/2.jpeg" width="100%"/>
+                <p>                                </p>
+            </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+            <div class="col-md-4 col-sm-6" id="sd">
+                <img src="/Users/adityakuchekar/Downloads/2.jpg" width="100%" />
+                <p>                                </p>
+            </div>
 
-### Markdown
+            <div class="col-md-4 col-sm-6" id="th">
+                <img src="/Users/adityakuchekar/Downloads/images2.jpeg" width="100%" />
+                <p>                                </p>
+            </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        </div>
+    </div>
 
-```markdown
-Syntax highlighted code block
+</body>
+</html>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aditya601/First-Project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
